@@ -1,0 +1,189 @@
+:root {
+    --primary: #4F46E5;
+    --primary-hover: #4338CA;
+    --bg-color: #F3F4F6;
+    --card-bg: #FFFFFF;
+    --text-main: #1F2937;
+    --text-muted: #6B7280;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    padding-bottom: 3rem;
+}
+
+/* Navbar aesthetic */
+.navbar-custom {
+    background: linear-gradient(135deg, var(--primary) 0%, #7C3AED 100%);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+/* Dashboard Cards */
+.stat-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icon-blue { background: #DBEAFE; color: #1D4ED8; }
+.icon-green { background: #D1FAE5; color: #047857; }
+.icon-purple { background: #EDE9FE; color: #6D28D9; }
+
+.stat-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-value {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-top: 0.5rem;
+}
+
+/* Table Card */
+.table-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-top: 2rem;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.table-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F9FAFB;
+}
+
+.table-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-main);
+}
+
+/* Custom Table Styling */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    border-bottom-width: 2px;
+    padding: 1rem 1.5rem;
+    background-color: #F9FAFB;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 1rem 1.5rem;
+    color: var(--text-main);
+    border-bottom: 1px solid #E5E7EB;
+    font-weight: 500;
+}
+
+.table tbody tr:hover {
+    background-color: #F3F4F6 !important;
+}
+
+/* Badges */
+.badge-custom {
+    padding: 0.5em 0.8em;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+.badge-lulus {
+    background-color: #D1FAE5;
+    color: #065F46;
+    border: 1px solid #A7F3D0;
+}
+
+.badge-gagal {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    border: 1px solid #FECACA;
+}
+
+/* Grade Badges */
+.grade-A { background: #10B981; color: white; }
+.grade-B { background: #3B82F6; color: white; }
+.grade-C { background: #F59E0B; color: white; }
+.grade-D { background: #F97316; color: white; }
+.grade-E { background: #EF4444; color: white; }
+.grade-badge {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Student Name & Avatar */
+.student-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), #8B5CF6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+}
