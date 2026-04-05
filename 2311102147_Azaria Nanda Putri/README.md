@@ -120,19 +120,9 @@ foreach ($mahasiswa as &$mhs) {
 
 ### Screenshot Output
 
-1.  **Header & Statistik**: Menampilkan identitas, rumus, dan ringkasan nilai kelas. </br>
-
 <img src="assets/1.jpeg" width="1000">
 
-2.  **Highlight Nilai Tertinggi**: Komponen visual yang menampilkan peraih nilai terbaik. </br>
 
-<img src="assets/2.jpeg" width="1000">
-
-3.  **Tabel Data**: Hasil pengolahan array yang ditampilkan ke dalam tabel HTML. </br>
-
-<img src="assets/3.jpeg" width="1000">
-
------
 
 # 4. Hasil dan Pembahasan
 
