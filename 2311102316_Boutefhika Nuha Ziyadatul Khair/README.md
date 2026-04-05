@@ -134,7 +134,7 @@ Pada PHP, tipe data dari suatu variabel tidak didefinisikan langsung oleh progra
 7. Resource
 8. Null
 
-# 1.5 Konstanta
+## 1.5 Konstanta
 Konstanta merupakan variabel konstan yang nilainya tidak berubah-ubah. Untuk mendefinisikan konstanta pada PHP, dapat menggunakan fungsi define() yang telah tersedia pada PHP. Berikut adalah contohnya : 
 ```
 <?php 
