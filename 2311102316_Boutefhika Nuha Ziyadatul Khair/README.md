@@ -52,7 +52,7 @@
 
 # Dasar Teori
 
-# 1.1 Web Server dan Server Side Scripting 
+## 1.1 Web Server dan Server Side Scripting 
 Web Server merupakan sebuah perangkat lunak dalam server yang berfungsi menerima permintaan (request) berupa halaman web melalui HTTP atau HTTPS dari client yang dikenal dengan web browser dan mengirimkan kembali (response) hasilnya dalam bentuk halaman-halaman web yang umumnya berbentuk dokumen HTML.
 
 <p align="center">
@@ -89,11 +89,11 @@ Keistimewaan PHP sebagai bahasa pemrograman berbasis web adalah :
 6. Banyaknya komunitas PHP 
 7. Aman 
 
-# 1.2. Instalasi Apache, PHP dan MySQL dengan XAMPP 
+## 1.2. Instalasi Apache, PHP dan MySQL dengan XAMPP 
 XAMPP sudah teristall di Laptop saya
 ![Gambar3](Images/gambar3.png)
 
-# 1.3 Pengenalan PHP 
+## 1.3 Pengenalan PHP 
 Merupakan singkatan rekursif dari PHP : Hypertext Preprocessor. Pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1994. PHP sendiri harus ditulis diantara tag : 
 * ```<? dan ?>```
 * ```<?php dan ?>``` 
@@ -108,7 +108,7 @@ Simpan file tersebut dengan nama hello.php pada direktori htdocs yang ada di fol
 
 ![Gambar4](Images/gambar4.png)
 
-# 1.4 Variabel 
+## 1.4 Variabel 
 Variabel digunakan untuk menyimpan sebuah value (nilai), data atau informasi. Nama variabel pada PHP diawali dengan tanda ```$```. Panjang dari suatu variabel tidak terbatas dan variabel tidak perlu dideklarasi terlebih dahulu sebelumnya. Setelah tanda ```$```, dapat diawali dengan huruf atau under-score (_). Karakter berikutnya bisa terdiri dari huruf, angka dan atau karakter tertentu yang diperbolehkan (karakter ASCII dari 127 – 255). 
 Variabel pada PHP bersifat case sensitive artinya besar kecilnya suatu karakter berpengaruh pada variabel tersebut. Suatu karakter pada PHP tidak boleh mengandung spasi. 
 
@@ -146,7 +146,7 @@ Konstanta merupakan variabel konstan yang nilainya tidak berubah-ubah. Untuk men
 ```
 ![Gambar6](Images/gambar6.png)
 
-# 1.6 Operator dalam PHP
+## 1.6 Operator dalam PHP
 Ada beberapa jenis operator pada PHP, yaitu:
 
 | Jenis        | Operator | Contoh       | Keterangan                                      |
@@ -179,9 +179,8 @@ Ada beberapa jenis operator pada PHP, yaitu:
 |             | xor      | $a xor $b   | TRUE jika salah satu TRUE, tidak keduanya      |
 |             | !        | !$b         | TRUE jika $b FALSE                             |
 | String      | .        | $a . $b     | Penggabungan string $a dan $b                  |
-|-------------|----------|-------------|------------------------------------------------|
 
-# 1.7 Struktur Kondisi
+## 1.7 Struktur Kondisi
 Struktur kondisi pada PHP sama halnya dengan bahasa pemrograman lainnya seperti Java. Berikut adalah contoh penulisan struktur kondisi if-then pada PHP: 
 
 ```
@@ -243,7 +242,7 @@ switch ($nilai) {
 ```
 ![Gambar8](Images/gambar8.png)
 
-# 1.8 Perulangan (Looping)
+## 1.8 Perulangan (Looping)
 Banyak jenis perulangan yang terdapat pada PHP. Adapun beberapa diantaranya adalah : 
 1. Perulangan for
 ```
@@ -301,7 +300,7 @@ do {
 ```
 ![Gambar9](Images/gambar9.png)
 
-# 1.9 Function
+## 1.9 Function
 Dalam merancang kode program, kadang kita sering membuat kode yang melakukan tugas yang sama secara berulang-ulang, seperti membaca tabel dari database, menampilkan penjumlahan, dan lainlain. Tugas yang sama ini akan lebih efektif jika dipisahkan dari program utama, dan dirancang menjadi sebuah fungsi. 
 Fungsi dipanggil dengan menulis nama dari fungsi tersebut, dan diikuti dengan argumen (jika ada). Argumen ditulis di dalam tanda kurung, dan jika jumlah argumen lebih dari satu, maka diantaranya dipisahkan oleh karakter koma. 
 Bentuk umum pendefinisian fungsi pada PHP adalah sebagai berikut: 
@@ -365,7 +364,7 @@ echo "Luas Segitiga dengan alas $a dan tinggi $t adalah : " . luasSegitiga(
 ```
 ![Gambar12](Images/gambar12.png)
 
-# 1.10 Array
+## 1.10 Array
 Array merupakan tipe data terstruktur yang berguna untuk menyimpan sejumlah data yang bertipe sama. Bagian yang menyusun array disebut elemen array, yang masing-masing elemen dapat diakses tersendiri melalui index array. Index array dapat berupa bilangan integer atau string. 
 Untuk mendeklarasikan atau mendefinisikan sebuah array di PHP bisa menggunakan keyword array(). Jumlah elemen array tidak perlu disebutkan saat deklarasi. Sedangkan untuk menampilkan isi array pada elemen tertentu, cukup dengan menyebutkan nama array beserta index array-nya. 
 Berikut adalah cara mendeklarasikan suatu array di PHP :
