@@ -566,4 +566,3 @@ Deskripsi:
 Program sistem penilaian mahasiswa ini dibuat menggunakan PHP dengan memanfaatkan array asosiatif untuk menyimpan data mahasiswa. Perhitungan nilai akhir dilakukan menggunakan function dan operator aritmatika, sedangkan penentuan grade dan status kelulusan menggunakan percabangan (if/else) serta operator perbandingan.
 
 Selain itu, penggunaan perulangan (loop) memungkinkan program menampilkan seluruh data mahasiswa secara otomatis dalam bentuk tabel HTML. Program juga mampu menghitung rata-rata kelas dan menentukan nilai tertinggi.
- 
