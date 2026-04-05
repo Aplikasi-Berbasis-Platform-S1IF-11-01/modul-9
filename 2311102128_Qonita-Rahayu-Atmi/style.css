@@ -1,0 +1,256 @@
+/* ============================================================
+   2311102128 - Qonita Rahayu Atmi
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --bg-main:    #0f1117;
+    --bg-card:    #1a1d27;
+    --bg-table:   #1e2130;
+    --bg-header:  #252840;
+    --accent:     #6c63ff;
+    --accent-2:   #a78bfa;
+    --green:      #22c55e;
+    --red:        #ef4444;
+    --yellow:     #facc15;
+    --text-main:  #e2e8f0;
+    --text-muted: #94a3b8;
+    --border:     rgba(255,255,255,0.08);
+    --radius:     14px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-main);
+    color: var(--text-main);
+    min-height: 100vh;
+    padding: 2rem 1rem 4rem;
+}
+
+/* ---- Hero ---- */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 40%, #1a1d27 100%);
+    border-radius: var(--radius);
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(108,99,255,.35) 0%, transparent 70%);
+}
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    font-weight: 700;
+    background: linear-gradient(90deg, #a78bfa, #6c63ff, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+}
+.hero p {
+    color: var(--text-muted);
+    margin-top: .6rem;
+    font-size: .95rem;
+    position: relative;
+}
+.hero .badge {
+    display: inline-block;
+    background: rgba(108,99,255,.25);
+    border: 1px solid rgba(108,99,255,.4);
+    color: var(--accent-2);
+    padding: .25rem .9rem;
+    border-radius: 99px;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+/* ---- Stat Cards ---- */
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+.stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 1.75rem;
+    transition: transform .25s, box-shadow .25s;
+}
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,.4);
+}
+.stat-card .label {
+    font-size: .78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: .5rem;
+}
+.stat-card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.stat-card .sub {
+    font-size: .8rem;
+    color: var(--text-muted);
+    margin-top: .3rem;
+}
+.stat-card.purple .value { color: var(--accent-2); }
+.stat-card.green  .value { color: var(--green); }
+.stat-card.yellow .value { color: var(--yellow); }
+
+/* ---- Section Title ---- */
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.section-title::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 1.1em;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+/* ---- Bobot Info ---- */
+.bobot-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin-bottom: 1.25rem;
+}
+.bobot-chip {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: .25rem .85rem;
+    font-size: .78rem;
+    color: var(--text-muted);
+}
+.bobot-chip strong { color: var(--accent-2); }
+
+/* ---- Table ---- */
+.table-wrap {
+    background: var(--bg-table);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9rem;
+}
+thead th {
+    background: var(--bg-header);
+    padding: 1rem 1.25rem;
+    text-align: left;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+}
+tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background .2s;
+}
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(255,255,255,.04); }
+td {
+    padding: .9rem 1.25rem;
+    vertical-align: middle;
+}
+.rank {
+    font-weight: 700;
+    color: var(--text-muted);
+    font-size: .85rem;
+}
+.na-value {
+    font-weight: 700;
+    color: var(--accent-2);
+    font-size: 1rem;
+}
+
+/* ---- Grade Badge ---- */
+.grade-badge {
+    display: inline-block;
+    padding: .2rem .7rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: .85rem;
+    min-width: 2rem;
+    text-align: center;
+}
+.grade-A { background: rgba(34,197,94,.2);  color: #4ade80; border: 1px solid rgba(34,197,94,.3); }
+.grade-B { background: rgba(59,130,246,.2); color: #60a5fa; border: 1px solid rgba(59,130,246,.3); }
+.grade-C { background: rgba(250,204,21,.2); color: #fde047; border: 1px solid rgba(250,204,21,.3); }
+.grade-D { background: rgba(249,115,22,.2); color: #fb923c; border: 1px solid rgba(249,115,22,.3); }
+.grade-E { background: rgba(239,68,68,.2);  color: #f87171; border: 1px solid rgba(239,68,68,.3); }
+
+/* ---- Status Badge ---- */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .25rem .8rem;
+    border-radius: 99px;
+    font-size: .78rem;
+    font-weight: 600;
+}
+.status-lulus       { background: rgba(34,197,94,.15);  color: #4ade80; border: 1px solid rgba(34,197,94,.3); }
+.status-tidak-lulus { background: rgba(239,68,68,.15);  color: #f87171; border: 1px solid rgba(239,68,68,.3); }
+.dot { width: 6px; height: 6px; border-radius: 50%; }
+.status-lulus       .dot { background: #4ade80; }
+.status-tidak-lulus .dot { background: #f87171; }
+
+/* ---- Legend ---- */
+.legend {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    align-items: center;
+}
+.legend-title {
+    font-size: .78rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* ---- Footer ---- */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--text-muted);
+    font-size: .8rem;
+}
+footer span { color: var(--accent-2); font-weight: 600; }
