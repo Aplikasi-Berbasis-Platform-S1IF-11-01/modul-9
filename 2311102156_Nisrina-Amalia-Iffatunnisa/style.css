@@ -1,0 +1,67 @@
+body {
+    background-color: #0f172a; /* Dark Navy Background */
+    font-family: 'Inter', sans-serif;
+    color: #f8fafc;
+}
+
+.main-card {
+    background-color: #1e293b;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table-dark {
+    background-color: transparent !important;
+    --bs-table-bg: transparent;
+}
+
+thead th {
+    background-color: #1e293b !important;
+    color: #64748b !important;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    padding: 20px !important;
+    border-bottom: 1px solid #334155 !important;
+}
+
+tbody td {
+    padding: 20px !important;
+    vertical-align: middle;
+    border-bottom: 1px solid #334155 !important;
+}
+
+.btn-custom {
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.badge-lulus {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border: 1px solid #10b981;
+}
+
+.badge-tidak-lulus {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.grade-circle {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #334155;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.stat-card {
+    border-radius: 12px;
+    background-color: #1e293b !important;
+}
