@@ -158,8 +158,6 @@ Berikut adalah lampiran *mock-up* / screenshot dari Web Sistem Nilai ketika berh
 
 ## 4. Referensi
 
-Laporan praktikum ini disusun menggunakan komponen pendukung serta wawasan referensi dari platform / modul terkait berikut:
-
 - **PHP Documentation - Arrays**: [https://www.php.net/manual/en/language.types.array.php](https://www.php.net/manual/en/language.types.array.php)
 - **PHP Documentation - Functions**: [https://www.php.net/manual/en/language.functions.php](https://www.php.net/manual/en/language.functions.php)
 - **PHP Documentation - Control Structures**: [https://www.php.net/manual/en/language.control-structures.php](https://www.php.net/manual/en/language.control-structures.php)
