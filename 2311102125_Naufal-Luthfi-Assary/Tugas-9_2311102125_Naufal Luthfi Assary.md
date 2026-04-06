@@ -695,5 +695,5 @@ Data yang ditampilkan:
 -	status
 
 
-## Refrensi
+## Referensi
 - [Materi Modul 9](https://drive.google.com/file/d/1Fgj2rbye0s7QZ5VBigpSiTyPBl8TjpKB/view?usp=sharing)
