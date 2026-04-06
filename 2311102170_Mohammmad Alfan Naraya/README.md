@@ -35,31 +35,8 @@
 
 ## 1. Dasar Teori
 
-**PHP** adalah bahasa pemrograman server-side yang sangat penting untuk membuat website dinamis. PHP bekerja di balik layar untuk mengolah logika, memproses data input, dan menghasilkan konten yang diubah sesuai kebutuhan pengguna sebelum dikirimkan ke peramban. Ini berbeda dengan HTML atau CSS, yang berfokus pada elemen visual.
+**PHP** merupakan bahasa pemrograman server-side yang krusial dalam pembuatan situs web dinamis karena kemampuannya mengolah logika, memproses input, dan menghasilkan konten yang disesuaikan sebelum dikirimkan ke peramban, berbeda dengan HTML atau CSS yang hanya berfokus pada elemen visual. Dalam tahap pengajaran awal, PHP memungkinkan pengelolaan data tanpa database melalui penggunaan array asosiatif yang menyimpan informasi dalam pasangan kunci dan nilai, sehingga data mahasiswa seperti nama dan komponen nilai menjadi lebih mudah diatur serta diakses. Logika program ini dijalankan menggunakan operator aritmatika dan perbandingan untuk menghitung nilai akhir berdasarkan bobot, sementara struktur percabangan if/else berfungsi untuk menentukan predikat nilai beserta status kelulusan mereka. Selain itu, penggunaan perulangan foreach memungkinkan sistem menyisir seluruh data dalam array dan menampilkannya secara otomatis ke dalam format tabel HTML yang rapi. Implementasi praktikum ini akhirnya menghasilkan Sistem Penilaian Mahasiswa yang menggunakan sinergi PHP, HTML, dan CSS untuk melakukan penghitungan nilai otomatis, mengidentifikasi predikat, serta menganalisis skor tertinggi dan rata-rata kelas dalam tampilan antarmuka yang bersih serta profesional.
 
-**Pengelolaan Data dengan Array dan Function**
-Selama tahap pengajaran awal, PHP memungkinkan pengolahan data tanpa database dengan menggunakan array asosiatif. Struktur ini menyimpan data dalam pasangan kunci dan nilai. Ini membuat informasi siswa seperti nama, NIM, dan komponen nilai lebih mudah diatur dan diakses.
-
-**Logika Program dan Visualisasi Data**
-Salah satu elemen logika utama yang digunakan oleh sistem penilaian ini adalah:
-
-- Operator Aritmatika dan Perbandingan: Digunakan untuk menghitung nilai akhir berdasarkan bobot dan membandingkannya dengan standar kelulusan.
-
-- Struktur percabangan (if/else): berfungsi untuk menentukan nilai siswa (A, B, C, dst.) dan status kelulusan mereka.
-
-- Perulangan, juga dikenal sebagai "foreach", memungkinkan Anda menyisir seluruh data dalam array dan secara otomatis menampilkannya dalam format tabel HTML.
-
-**Implementasi Praktikum: Sistem Penilaian Mahasiswa**
-Praktikum ini menggunakan PHP, HTML, dan CSS untuk membuat Sistem Penilaian Mahasiswa. Selain mengolah angka, program ini dapat melakukan analisis data seperti:
-
-1. Penghitungan nilai akhir yang dilakukan secara otomatis.
-
-2. Mengidentifikasi status kelulusan dan predikat nilai.
-
-3. Menampilkan data kelas dengan skor tertinggi dan rata-rata.
-
-4. Tampilan antarmuka yang bersih, profesional, dan mudah digunakan.
----
 
 ## 2. Penjelasan Kode PHP, HTML, dan CSS
 
