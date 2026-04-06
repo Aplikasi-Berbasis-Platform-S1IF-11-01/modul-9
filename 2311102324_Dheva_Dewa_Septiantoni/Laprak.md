@@ -256,7 +256,7 @@ $jumlah_mahasiswa = count($data_mahasiswa);
 
 ### Penjelasan Kode PHP
 
-1. Deklarasi Data (Array Asosiatif)
+#### 1. Deklarasi Data (Array Asosiatif)
 ```php
 $data_mahasiswa = [ ... ];
 ```
@@ -266,7 +266,7 @@ Array asosiatif digunakan karena kita menggunakan key (kunci) berupa teks sepert
 
 Cara ini sangat memudahkan kita untuk memanggil data yang spesifik nanti (misalnya memanggil mhs['nama']). Sesuai ketentuan tugas, ada lebih dari 3 data mahasiswa yang dimasukkan di sini.
 
-2. Pembuatan Fungsi (Functions)
+#### 2. Pembuatan Fungsi (Functions)
 
 Ada tiga fungsi utama yang dibuat untuk memecah logika program agar lebih rapi:
 
@@ -279,7 +279,7 @@ Fungsi ini menggunakan logika if/elseif/else. Program akan mengecek dari nilai t
 tentukanStatus($nilai):
 Fungsi ini menggunakan operator perbandingan >= (lebih dari atau sama dengan). Jika nilai akhir 60 atau lebih, statusnya "Lulus", selain itu "Tidak Lulus".
 
-3. Persiapan Variabel Ringkasan Kelas
+#### 3. Persiapan Variabel Ringkasan Kelas
 ```php
 $total_nilai_kelas = 0;
 $nilai_tertinggi = 0;
@@ -293,7 +293,7 @@ Sebelum memulai perulangan, kita menyiapkan wadah kosong:
 
 `$jumlah_mahasiswa` menghitung otomatis ada berapa data di dalam array menggunakan fungsi count().
 
-4. Perulangan (Looping) dan Menampilkan Tabel
+#### 4. Perulangan (Looping) dan Menampilkan Tabel
 ```php
 foreach ($data_mahasiswa as $mhs) { ... }
 ```
@@ -315,7 +315,7 @@ Setiap loop berjalan, nilai akhir mahasiswa tersebut akan ditambahkan ke `$total
 
 Mencetak Baris Tabel: Perintah echo digunakan untuk mencetak tag HTML `<tr>` (baris) dan `<td>` (kolom) secara dinamis, diisi dengan data `$mhs['nama']`, hasil perhitungan, dll. Terdapat juga logika kecil $status_class untuk memberi warna hijau jika lulus dan merah jika gagal melalui CSS.
 
-5. Menampilkan Ringkasan Kelas
+#### 5. Menampilkan Ringkasan Kelas
 ```php
 $rata_rata_kelas = $total_nilai_kelas / $jumlah_mahasiswa;
 ```
