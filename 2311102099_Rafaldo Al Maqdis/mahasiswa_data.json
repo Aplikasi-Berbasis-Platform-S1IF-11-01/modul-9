@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nama": "Aisyah Putri Ramadhanis",
+        "nim": "2021001001",
+        "nilai_tugas": 90,
+        "nilai_uts": 85,
+        "nilai_uas": 95
+    },
+    {
+        "id": 2,
+        "nama": "Bima Sakti Nugraha",
+        "nim": "2021001002",
+        "nilai_tugas": 75,
+        "nilai_uts": 68,
+        "nilai_uas": 72
+    },
+    {
+        "id": 3,
+        "nama": "Citra Dewi Kusuma",
+        "nim": "2021001003",
+        "nilai_tugas": 60,
+        "nilai_uts": 55,
+        "nilai_uas": 58
+    },
+    {
+        "id": 4,
+        "nama": "Daffa Arya Wibisono",
+        "nim": "2021001004",
+        "nilai_tugas": 92,
+        "nilai_uts": 95,
+        "nilai_uas": 91
+    },
+    {
+        "id": 5,
+        "nama": "Elsa Nuraini Hasanah",
+        "nim": "2021001005",
+        "nilai_tugas": 45,
+        "nilai_uts": 48,
+        "nilai_uas": 42
+    },
+    {
+        "id": 6,
+        "nama": "azaria nanda putri",
+        "nim": "2311102147",
+        "nilai_tugas": 95,
+        "nilai_uts": 95,
+        "nilai_uas": 95
+    }
+]
