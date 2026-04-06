@@ -1,28 +1,28 @@
 <?php
 $data_mahasiswa = [
     [
-        "nama" => "Budi Santoso",
-        "nim" => "1101234",
+        "nama" => "Dheva Dewa Septiantoni",
+        "nim" => "2311102324",
         "nilai_tugas" => 85,
         "nilai_uts" => 80,
         "nilai_uas" => 90
     ],
     [
-        "nama" => "Siti Aminah",
+        "nama" => "Ricul",
         "nim" => "1101235",
         "nilai_tugas" => 70,
         "nilai_uts" => 65,
         "nilai_uas" => 50
     ],
     [
-        "nama" => "Ahmad Fauzi",
+        "nama" => "Danen",
         "nim" => "1101236",
         "nilai_tugas" => 90,
         "nilai_uts" => 85,
         "nilai_uas" => 88
     ],
     [
-        "nama" => "Rina Kumala",
+        "nama" => "Hamit",
         "nim" => "1101237",
         "nilai_tugas" => 55,
         "nilai_uts" => 60,
